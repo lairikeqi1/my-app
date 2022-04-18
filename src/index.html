@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline';" />
+    <title>Hello World!</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <h1>💖 Hello World!</h1>
+    <p>Welcome to your Electron application.</p>
+    <!-- <button>点击创建文件</button>
+    <div id="holder">
+      <h1>将你的文件拖动到此处</h1>
+    </div>
+    <div id="readList">
+      <h1>读取的内容</h1>
+    </div>
+    <webview id="wv" src="https://www.baidu.com" style="width:640px;height: 480px;"></webview>
+    <script src="./js/render.js"></script> -->
+    <!-- <button id="btn">点击开启新窗口</button>
+    <script>
+      let {ipcRenderer}=require('electron')
+
+      ipcRenderer.on('my-active',(event,arg)=>{
+        console.log(event,arg);
+      })
+
+      // 主动发消息给主进程
+      ipcRenderer.send('my-message','子进程给主进程发送数据')
+      ipcRenderer.on('my-reply',(event,arg)=>{
+        console.log(event,arg);
+      })
+
+      var btn =document.querySelector('#btn')
+      btn.onclick=function(){
+        // 主动发消息给主进程
+        ipcRenderer.send('openNewWindow')
+      }
+    </script> -->
+  </body>
+</html>
